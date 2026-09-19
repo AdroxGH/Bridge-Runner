@@ -149,12 +149,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclePrefabs:
-  - {fileID: 283575245337965598, guid: 836ed590791861544a606ddd695faae4, type: 3}
-  - {fileID: 6360086221296882059, guid: eda7c64eb8a105e46888a208b2421a23, type: 3}
-  - {fileID: 1756044909805575160, guid: af876c2fd9ffcc9429cb7afd99778494, type: 3}
-  - {fileID: 5921472608700402344, guid: 494ef2137becf1c4fb948d10733769fe, type: 3}
-  - {fileID: 4463094734141527329, guid: 9ee2095e0a0f39842882a791f61a2795, type: 3}
-  obstacleSpawnTime: 2
+  - {fileID: 7970054727858766779, guid: dcf2c9854852c4d4eb15530e0ba68f8c, type: 3}
+  obstacleSpawnTime: 3
   obstacleParent: {fileID: 627787553}
   spawnWidth: 4
 --- !u!4 &35253547
@@ -166,7 +162,7 @@ Transform:
   m_GameObject: {fileID: 35253545}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: 80}
+  m_LocalPosition: {x: 0, y: 3, z: 80}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10971,6 +10967,7 @@ GameObject:
   - component: {fileID: 1097279466}
   - component: {fileID: 1097279468}
   - component: {fileID: 1097279469}
+  - component: {fileID: 1097279470}
   - component: {fileID: 1097279467}
   m_Layer: 0
   m_Name: Cinemachine Camera
@@ -11115,6 +11112,30 @@ MonoBehaviour:
     Time: 0
     Smoothing: 0
     IgnoreY: 0
+--- !u!114 &1097279470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097279464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ApplyAfter: 2
+  ChannelMask: 1
+  Gain: 1
+  Use2DDistance: 0
+  UseCameraSpace: 1
+  SignalCombinationMode: 0
+  ReactionSettings:
+    m_SecondaryNoise: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    Duration: 1
+    m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &1195099184
 GameObject:
   m_ObjectHideFlags: 0
