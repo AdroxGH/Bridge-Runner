@@ -5025,7 +5025,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collisionParticleSystem: {fileID: 4347644905125339189}
   boulderSmashAudioSource: {fileID: 973790922003329902}
-  shakeModifier: 5
+  shakeModifer: 5
+  collisionCooldown: 1
 --- !u!136 &549978125427621213
 CapsuleCollider:
   m_ObjectHideFlags: 0
